@@ -12,12 +12,6 @@ I focus on bridging the gap between research and production by porting Python pr
 
 ## 💼 Featured Work
 
-### [RTSMS Inference Pipeline Optimization](https://github.com/Kagura-Ahad/Dawlance-RTSMS-Inference-Pipeline-Optimization)
-*Real-time Safety Monitoring System Optimization*
-- Engineered and optimized a real-time tracking pipeline moving from a Python/PyTorch baseline to a highly accelerated C++/TensorRT architecture.
-- Integrated multi-object tracking (ByteTrack/BotSort) with custom optimizations to maximize FPS on edge and server-class GPUs.
-- Profiled and identified pipeline bottlenecks, transitioning seamlessly from OpenCV DNN to TensorRT natively in C++.
-
 ### [NVDEC-ParaFlow](https://github.com/Kagura-Ahad/NVDEC-ParaFlow)
 *Parallel Video Decoding Architecture*
 - Designed a benchmarking suite for parallel video flow architectures leveraging hardware-accelerated NVIDIA Decoders (NVDEC).
@@ -27,6 +21,12 @@ I focus on bridging the gap between research and production by porting Python pr
 *Hardware Decoder Validation & Benchmarking*
 - Developed a rigorous validation pipeline to guarantee accuracy when migrating from CPU-based decoding (OpenCV) to GPU hardware decoding (NVDEC).
 - Automated tensor extraction and comparison to ensure pixel and tensor parity across drastically different rendering and decoding pathways.
+
+### [RTSMS Inference Pipeline Optimization](https://github.com/Kagura-Ahad/Dawlance-RTSMS-Inference-Pipeline-Optimization)
+*Real-time Safety Monitoring System Optimization*
+- Engineered and optimized a real-time tracking pipeline moving from a Python/PyTorch baseline to a highly accelerated C++/TensorRT architecture.
+- Integrated multi-object tracking (ByteTrack/BotSort) with custom optimizations to maximize FPS on edge and server-class GPUs.
+- Profiled and identified pipeline bottlenecks, transitioning seamlessly from OpenCV DNN to TensorRT natively in C++.
 
 ## 🛠️ Tech Stack
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CUDA](https://img.shields.io/badge/CUDA-76B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) 
